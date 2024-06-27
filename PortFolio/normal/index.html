@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Movie Search</title>
+    <style>
+        /* Add some basic styles */
+        body {
+            font-family: Arial, sans-serif;
+        }
+        .movie-container {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+        }
+        .movie {
+            width: 200px;
+        }
+        .movie img {
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+    <h1>Movie Search</h1>
+    <input type="text" id="search" placeholder="Search for a movie...">
+    <button onclick="searchMovies()">Search</button>
+    <div class="movie-container" id="movie-container"></div>
+
+    <script src="app.js"></script>
+</body>
+</html>
